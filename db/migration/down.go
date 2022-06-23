@@ -33,11 +33,5 @@ func down(db *sql.DB) error {
 		return err
 	}
 
-	// _, err = db.Exec(dropTableOrders)
-
-	// if err != nil {
-	// 	return err
-	// }
-
 	return err
 }
